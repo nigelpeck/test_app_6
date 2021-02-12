@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   # root 'application#hello' # actually means application_controller - it's implicit - then the # sign to denote the method that you want to run
 
   root 'pages#home'
-
+  get 'about', to: 'pages#about'
 end
